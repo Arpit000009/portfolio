@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Branding */}
         <div className="text-center md:text-left">
           <h2 className="text-lg font-semibold">
-            Alok Mishra | Full-Stack Developer & Tech Enthusiast
+            Arpit Pandey | Full-Stack Developer & Tech Enthusiast
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-400">
             &copy; {new Date().getFullYear()} All rights reserved.
@@ -36,7 +36,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex gap-4 text-xl">
           <a
-            href="https://github.com/alok123-pixel"
+            href="https://github.com/Arpit000009"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-500 transition-colors"
@@ -44,7 +44,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/alok-mishra-501b4930b/"
+            href="https://www.linkedin.com/in/arpit-pandey-b7814027b"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition-colors"

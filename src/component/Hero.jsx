@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import profileImg from "../assets/profileImg.png"; 
+import profileImg from "../assets/arpit_img.png"; 
 
 const Hero = () => {
   return (
@@ -14,10 +14,10 @@ const Hero = () => {
         className="text-center lg:text-left w-full max-w-xl"
       >
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-gray-900 dark:text-white">
-          Hi, I'm{" "}
+          Hi,{" "}
           <span className="text-purple-600 dark:text-purple-400">
             <Typewriter
-              words={["Alok Mishra", "a Full-Stack Developer", "a MERN Stack Engineer"]}
+              words={["I'am Arpit Pandey", "I'am a Full-Stack Developer", "मैं हूँ अर्पित पांडेय"]}
               loop={true}
               cursor
               cursorStyle="|"
@@ -29,7 +29,8 @@ const Hero = () => {
         </h1>
 
         <h2 className="text-lg sm:text-xl md:text-2xl mt-3 text-gray-600 dark:text-gray-300">
-           Crafting Stylish UIs with <span className="font-semibold text-purple-600 dark:text-purple-400">React</span> & <span className="font-semibold text-purple-600 dark:text-purple-400">Tailwind</span>
+            <span className="font-semibold text-purple-600 dark:text-purple-400">Software Engineer</span> & <span className="font-semibold text-purple-600 dark:text-purple-400">Lifelong Learner</span>
+            {" "}from INDIA
         </h2>
 
         <p className="text-sm sm:text-base mt-4 text-gray-500 dark:text-gray-400">
@@ -37,7 +38,7 @@ const Hero = () => {
         </p>
 
         <p className="text-sm sm:text-base mt-2 text-gray-500 dark:text-gray-400">
-          Skilled in <span className="font-medium text-indigo-600 dark:text-indigo-400">React, Node.js, MongoDB</span>, and always learning. I enjoy building <span className="italic">real-world projects</span> that make a difference.
+          Proficient in <span className="font-medium text-indigo-600 dark:text-indigo-400">MERN Stack</span>, and constantly expanding my toolkit. I enjoy building <span className="italic">real-world projects</span> that make a difference and solving problems.
         </p>
 
         <p className="text-sm sm:text-base mt-2 text-gray-500 dark:text-gray-400">

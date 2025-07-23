@@ -12,22 +12,46 @@ import tailwindIcon from "../assets/tailwindcss.svg";
 import reduxIcon from "../assets/icons8-redux.svg";
 import reactIcon from "../assets/react.svg";
 import expressIcon from "../assets/express.svg"
+import python from "../assets/python-original.svg"
+import github from "../assets/github-original.svg"
+import vscode from "../assets/vscode-original.svg"
+import Netlify from "../assets/netlify-original.svg"
+import varcel from "../assets/varcel.png"
+import mysql from "../assets/mysql-original.svg"
+import cpp from "../assets/cpp.png"
+
 
 // Skill groups
 const frontendSkills = [
+  { name: "C++", icon: cpp },
   { name: "HTML", icon: htmlIcon },
   { name: "CSS", icon: cssIcon },
   { name: "JavaScript", icon: javascriptIcon },
-  { name: "React", icon: reactIcon },
-  { name: "Redux", icon: reduxIcon },
-  { name: "Tailwind", icon: tailwindIcon },
+  { name: "JavaScript", icon: python },
+  
 ];
 
 const backendSkills = [
   { name: "Node.js", icon: nodeIcon },
   { name: "Express.js", icon: expressIcon },
+  
+ 
+  { name: "React", icon: reactIcon },
+  // { name: "Redux", icon: reduxIcon },
+  { name: "Tailwind", icon: tailwindIcon },
+];
+const data = [
   { name: "MongoDB", icon: mongoIcon },
+  { name: "MySQL", icon: mysql },
+
+];
+const tools = [
+  { name: "Github", icon: github },
+  { name: "VS Code", icon: vscode },
+  { name: "varcel", icon: varcel },
+  { name: "Netlify", icon: Netlify },
   { name: "Git", icon: gitIcon },
+  
 ];
 
 const SkillGrid = ({ title, skills }) => (
@@ -84,8 +108,10 @@ const Skills = () => {
       </h2>
 
       <div className="max-w-6xl mx-auto">
-        <SkillGrid title="Frontend" skills={frontendSkills} />
-        <SkillGrid title="Backend & Tools" skills={backendSkills} />
+        <SkillGrid title="Languages" skills={frontendSkills} />
+        <SkillGrid title="Frameworks and Libraries" skills={backendSkills} />
+        <SkillGrid title="DataBases" skills={data} />
+        <SkillGrid title="Tools" skills={tools} />
       </div>
     </section>
   );
