@@ -48,11 +48,11 @@ const About = () => {
         </p>
 
         <p className="mt-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">I have good command in  <span className="text-blue-500 font-semibold">JavaScript</span>,{" "} and  <span className="text-blue-500 font-semibold">C++</span>,{" "}.
-         Other than that I like solving questions of <span className="text-blue-500 font-semibold">Dsa</span>,{" "} in <span className="text-green-500 font-semibold"> C++</span>
+         Other than that I like solving questions of <span className="text-blue-500 font-semibold">Dsa</span>,{" "} in <span className="text-green-500 font-semibold"> C++</span>. Also learning <span className="text-teal-500 font-semibold">Python</span> to make Ai integrated projects in future.
         </p>
 
         <p className="mt-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-          I'm always learning new tools, polishing my skills, and contributing to open-source. 
+          I'm always learning new tools, polishing my skills, and looking forward to learn more and more. 
           Let’s build something awesome together!
         </p>
 
@@ -61,11 +61,11 @@ const About = () => {
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
             Education
           </h3>
-          <div className="space-y-4">
+          <div className="space-y-3">
             <div className="flex items-start gap-4">
               <AcademicCapIcon className="w-6 h-6 text-purple-500 mt-1" />
               <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Bachelor of Technology in <span className="font-medium">Computer Science</span> from <span className="font-medium">Gyan Ganga College of Technology </span>,Jabalpur(M.P)
+                Bachelor of Technology in <span className="font-medium">Computer Science</span> from <span className="font-medium">Gyan Ganga College of Technology, </span>Jabalpur(M.P)
               </p> 
               
             </div>
@@ -86,6 +86,33 @@ const About = () => {
               
             </div>
           </div>
+          
+        </div>
+
+         <div className="mt-8">
+          <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
+            Extra Carricular
+          </h3>
+          <div className="space-y-4">
+           
+            <div className="flex items-start gap-4">
+              <ArrowRightIcon  className="w-6 h-6 text-blue-500 mt-1" /><p>Smart India Hackathon (SIH) — Participated twice and selected in internal hackathon rounds at institute level.
+            </p>
+              
+            </div>
+             <div className="space-y-4">
+            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4">
+              <ArrowRightIcon  className="w-6 h-6 text-green-500 mt-1" /><p>National Cadet Corps (NCC) — Completed 2 years of training and earned ’B’ Certificate.</p>
+            </div>
+              <ArrowRightIcon  className="w-6 h-6 text-blue-500 mt-1" /><p>Hobbies: Playing Football , watching Cricket.
+            </p>
+              
+            
+            </div>
+            </div>
+          </div>
+          
         </div>
       </motion.div>
     </section>

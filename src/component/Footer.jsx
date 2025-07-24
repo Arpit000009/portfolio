@@ -2,6 +2,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
+import leetcode from "../assets/leetcode.png"
 
 const Footer = () => {
   return (
@@ -12,6 +13,9 @@ const Footer = () => {
           <h2 className="text-lg font-semibold">
             Arpit Pandey | Full-Stack Developer & Tech Enthusiast
           </h2>
+          <h3 className="text-lg ">
+            arpitpandey000009@gmail.com
+          </h3>
           <p className="text-sm text-gray-600 dark:text-gray-400">
             &copy; {new Date().getFullYear()} All rights reserved.
           </p>
@@ -51,6 +55,19 @@ const Footer = () => {
           >
             <FaLinkedin />
           </a>
+          <a
+  href="https://leetcode.com/u/arpitpandey_cse21/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-yellow-500 transition-colors"
+>
+  <img
+    src={leetcode} // local import like: import leetcode from './assets/leetcode.png';
+    alt="LeetCode"
+    className="w-6 h-6 object-contain hover:scale-110 transition-transform duration-300"
+  />
+</a>
+
         </div>
       </div>
     </footer>
