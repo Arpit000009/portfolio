@@ -67,7 +67,7 @@ const About = () => {
               <p className="text-gray-700 dark:text-gray-300 text-lg">
                 Bachelor of Technology in <span className="font-medium">Computer Science</span> from <span className="font-medium">Gyan Ganga College of Technology, </span>Jabalpur(M.P)
               </p> 
-              
+               <ArrowRightIcon  className="w-6 h-6 text-purple-500 mt-1" /><p>2021-2025</p>
             </div>
             <div className="flex items-start gap-4">
               <ArrowRightIcon  className="w-6 h-6 text-purple-500 mt-1" /><p>C.G.P.A. - 7.92</p>
@@ -91,7 +91,7 @@ const About = () => {
 
          <div className="mt-8">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
-            Extra Carricular
+            Extra Curricular
           </h3>
           <div className="space-y-4">
            
